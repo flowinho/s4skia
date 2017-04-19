@@ -1,0 +1,221 @@
+/* General */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  color: #d0d0d0 !important;
+}
+
+.app .section > .content {
+  background-color: #f2f2f2 !important;
+}
+
+.section-menu {
+  background-color:  #f2f2f2 !important;
+  color: #4d4d4d !important;
+  font-family: "Lato";
+}
+
+.add-button {
+  background-color: #e6e6e6 !important;
+}
+
+.panel {
+  background-color: #e6e6e6 !important;
+  color: #d8d8d8 !important;
+}
+
+.dropdown-menu {
+  background-color: #e6e6e6 !important;
+  color: #1a1a1a !important;
+    font-family: "Lato";
+}
+
+.nt-dropdown-menu.dark li .text {
+  color: #1a1a1a !important;
+    font-family: "Lato";
+}
+
+.blue {
+  color: #313142 !important;
+}
+
+.gray-bg {
+  background-color: red !important;
+  color: #red !important;
+  border: 1px solid #red !important;
+}
+
+.white-bg {
+  background-color: #313142 !important;
+  color: white !important;
+}
+
+
+/* Tags */
+
+.app .tags .content {
+  background-color: #e6e6e6 !important;
+}
+
+#tags-title-bar {
+  color: #4d4d4d !important;
+  font-family: "Lato";
+  font-size: 20pt;
+}
+
+.tags .tag {
+  color: #4d4d4d !important;
+  font-family: "Lato";
+}
+
+.tags .tag::after {
+}
+
+.tags .tag > .info > .title {
+  color: #4d4d4d !important;
+  font-family: "Lato";
+}
+
+.tags .tag.selected {
+  background-color: #cccccc !important;
+  color: black !important;
+
+  -moz-border-radius-topleft: 150px;
+-webkit-border-top-left-radius: 100px;
+ border-top-left-radius: 150px;
+-moz-border-radius-bottomleft: 100px;
+-webkit-border-bottom-left-radius: 100px;
+border-bottom-left-radius: 150px;
+}
+
+.tags .tag:hover:not(.selected) {
+  background-color: #d9d9d9 !important;
+}
+
+
+/* Notes */
+
+.app .notes .content {
+  background-color: #f2f2f2 !important;
+  -webkit-box-shadow: -3px 0px 11px -1px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow:    -3px 0px 11px -1px rgba(50, 50, 50, 0.1);
+  box-shadow:         -3px 0px 8px -1px rgba(50, 50, 50, 0.1);
+}
+
+.notes {
+  border-left: 1px solid #f2f2f2 !important;
+  border-right: 1px solid #bfbfbf !important;
+}
+
+#notes-title-bar {
+  color: #1a1a1a !important;
+  background-color: #f2f2f2 !important;
+  font-family: "Lato"
+}
+
+.notes .filter-section .filter-bar {
+  background-color: #e6e6e6 !important;
+  font-family: "Lato";
+  color: #666666 !important;
+}
+
+.notes .note.selected {
+  background-color: #e6e6e6 !important;
+  color: #1a1a1a !important;
+  font-family: "Lato"
+}
+
+.notes .note {
+  border-bottom: 1px solid #a6a6a6 !important;
+  background-color: #f2f2f2 !important;
+  color: #666666;
+  font-family: "Lato"
+}
+
+
+/* Editor */
+
+#editor-title-bar {
+  background-color: #ffffff !important;
+  background: rgb(237, 237, 237);
+}
+
+#editor-title-bar > .title > .input {
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+.editor-content {
+  background-color: #ffffff !important;
+  
+}
+
+.editor-content .editable {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: "Roboto";
+}
+
+#editor-title-bar .editor-tags .tags-input {
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+
+
+/* Menus */
+
+.menu-section-header {
+  background-color: #e6e6e6 !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+.dropdown-menu.editor-menu ul li.menu-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  background-color: #d9d9d9 !important;
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+.dropdown-menu.editor-menu ul li.menu-item:hover {
+  background-color: #bfbfbf !important;
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+.menu-section-footer {
+  background-color: #d9d9d9 !important;
+  color: #1a1a1a !important;
+  font-family: "Lato";
+}
+
+
+/* Footer */
+
+#footer-bar {
+  background-color: #333333 !important;
+}
+
+#footer-bar a {
+  color: #333333;
+}
+
+.footer-bar-link > a {
+  color: #d9d9d9 !important;
+  font-family: "Lato";
+}
+
+/* UI */
+
+button.light {
+  background-color: red !important;
+  border: 0 !important;
+  color: white !important;
+}
+
+.form-control {
+  background-color: #ffffff !important;
+}
